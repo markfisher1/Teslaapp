@@ -1,0 +1,363 @@
+:root {
+  --background-dividers: rgba(0, 0, 0, 0.1);
+  --base-shade-100: rgba(0, 0, 0, 1);
+  --base-shade-50: rgba(0, 0, 0, 0.5);
+  --base-shade-70: rgba(0, 0, 0, 0.7);
+  --base-white-100: rgba(255, 255, 255, 1);
+  --body-1-emphasized-font-family: "Inter", Helvetica;
+  --body-1-emphasized-font-size: 14px;
+  --body-1-emphasized-font-style: normal;
+  --body-1-emphasized-font-weight: 600;
+  --body-1-emphasized-letter-spacing: 0px;
+  --body-1-emphasized-line-height: 18px;
+  --body-1-medium-font-family: "Inter", Helvetica;
+  --body-1-medium-font-size: 14px;
+  --body-1-medium-font-style: normal;
+  --body-1-medium-font-weight: 500;
+  --body-1-medium-letter-spacing: -0.15399999916553497px;
+  --body-1-medium-line-height: normal;
+  --body-2-emphasized-font-family: "Inter", Helvetica;
+  --body-2-emphasized-font-size: 12px;
+  --body-2-emphasized-font-style: normal;
+  --body-2-emphasized-font-weight: 600;
+  --body-2-emphasized-letter-spacing: 0.019999999552965164px;
+  --body-2-emphasized-line-height: normal;
+  --body-2-font-family: "Inter", Helvetica;
+  --body-2-font-size: 12px;
+  --body-2-font-style: normal;
+  --body-2-font-weight: 400;
+  --body-2-letter-spacing: 0px;
+  --body-2-line-height: normal;
+  --color-blue: rgba(27, 89, 248, 1);
+  --color-grey: rgba(144, 152, 163, 1);
+  --headline-font-family: "Inter", Helvetica;
+  --headline-font-size: 24px;
+  --headline-font-style: normal;
+  --headline-font-weight: 700;
+  --headline-letter-spacing: 0px;
+  --headline-line-height: normal;
+  --label-emphasized-font-family: "Inter", Helvetica;
+  --label-emphasized-font-size: 17px;
+  --label-emphasized-font-style: normal;
+  --label-emphasized-font-weight: 600;
+  --label-emphasized-letter-spacing: 0px;
+  --label-emphasized-line-height: 22px;
+  --label-medium-font-family: "Inter", Helvetica;
+  --label-medium-font-size: 17px;
+  --label-medium-font-style: normal;
+  --label-medium-font-weight: 500;
+  --label-medium-letter-spacing: 0px;
+  --label-medium-line-height: 22px;
+  --primarypressed: rgba(15, 37, 82, 1);
+  --schoolpal-primary: rgba(33, 191, 115, 1);
+  --selection-sidebar: rgba(248, 250, 253, 1);
+  --softer-dividers: rgba(239, 240, 246, 1);
+  --stroke-color: rgba(239, 240, 246, 1);
+  --texting-inter-bold-13-45-font-family: "Inter", Helvetica;
+  --texting-inter-bold-13-45-font-size: 13.453125px;
+  --texting-inter-bold-13-45-font-style: normal;
+  --texting-inter-bold-13-45-font-weight: 700;
+  --texting-inter-bold-13-45-letter-spacing: 0px;
+  --texting-inter-bold-13-45-line-height: 18px;
+  --texting-inter-medium-11-25-font-family: "Inter", Helvetica;
+  --texting-inter-medium-11-25-font-size: 11.25px;
+  --texting-inter-medium-11-25-font-style: normal;
+  --texting-inter-medium-11-25-font-weight: 500;
+  --texting-inter-medium-11-25-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-11-25-line-height: 16px;
+  --texting-inter-medium-12-39-font-family: "Inter", Helvetica;
+  --texting-inter-medium-12-39-font-size: 12.390625px;
+  --texting-inter-medium-12-39-font-style: normal;
+  --texting-inter-medium-12-39-font-weight: 500;
+  --texting-inter-medium-12-39-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-12-39-line-height: 14px;
+  --texting-inter-medium-13-02-font-family: "Inter", Helvetica;
+  --texting-inter-medium-13-02-font-size: 13.015625px;
+  --texting-inter-medium-13-02-font-style: normal;
+  --texting-inter-medium-13-02-font-weight: 500;
+  --texting-inter-medium-13-02-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-13-02-line-height: 20px;
+  --texting-inter-medium-13-63-font-family: "Inter", Helvetica;
+  --texting-inter-medium-13-63-font-size: 13.625px;
+  --texting-inter-medium-13-63-font-style: normal;
+  --texting-inter-medium-13-63-font-weight: 500;
+  --texting-inter-medium-13-63-letter-spacing: 0px;
+  --texting-inter-medium-13-63-line-height: 20px;
+  --texting-inter-medium-13-71-font-family: "Inter", Helvetica;
+  --texting-inter-medium-13-71-font-size: 13.7109375px;
+  --texting-inter-medium-13-71-font-style: normal;
+  --texting-inter-medium-13-71-font-weight: 500;
+  --texting-inter-medium-13-71-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-13-71-line-height: 18px;
+  --texting-inter-medium-13-83-font-family: "Inter", Helvetica;
+  --texting-inter-medium-13-83-font-size: 13.828125px;
+  --texting-inter-medium-13-83-font-style: normal;
+  --texting-inter-medium-13-83-font-weight: 500;
+  --texting-inter-medium-13-83-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-13-83-line-height: 18px;
+  --texting-inter-medium-13-95-font-family: "Inter", Helvetica;
+  --texting-inter-medium-13-95-font-size: 13.9453125px;
+  --texting-inter-medium-13-95-font-style: normal;
+  --texting-inter-medium-13-95-font-weight: 500;
+  --texting-inter-medium-13-95-letter-spacing: 0px;
+  --texting-inter-medium-13-95-line-height: normal;
+  --texting-inter-medium-14-06-font-family: "Inter", Helvetica;
+  --texting-inter-medium-14-06-font-size: 14.0625px;
+  --texting-inter-medium-14-06-font-style: normal;
+  --texting-inter-medium-14-06-font-weight: 500;
+  --texting-inter-medium-14-06-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-14-06-line-height: 18px;
+  --texting-inter-medium-14-18-font-family: "Inter", Helvetica;
+  --texting-inter-medium-14-18-font-size: 14.1796875px;
+  --texting-inter-medium-14-18-font-style: normal;
+  --texting-inter-medium-14-18-font-weight: 500;
+  --texting-inter-medium-14-18-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-14-18-line-height: 18px;
+  --texting-inter-medium-14-3-font-family: "Inter", Helvetica;
+  --texting-inter-medium-14-3-font-size: 14.296875px;
+  --texting-inter-medium-14-3-font-style: normal;
+  --texting-inter-medium-14-3-font-weight: 500;
+  --texting-inter-medium-14-3-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-14-3-line-height: 18px;
+  --texting-inter-medium-14-88-font-family: "Inter", Helvetica;
+  --texting-inter-medium-14-88-font-size: 14.875px;
+  --texting-inter-medium-14-88-font-style: normal;
+  --texting-inter-medium-14-88-font-weight: 500;
+  --texting-inter-medium-14-88-letter-spacing: 0px;
+  --texting-inter-medium-14-88-line-height: 20px;
+  --texting-inter-medium-15-25-font-family: "Inter", Helvetica;
+  --texting-inter-medium-15-25-font-size: 15.25px;
+  --texting-inter-medium-15-25-font-style: normal;
+  --texting-inter-medium-15-25-font-weight: 500;
+  --texting-inter-medium-15-25-letter-spacing: 0px;
+  --texting-inter-medium-15-25-line-height: 20px;
+  --texting-inter-medium-15-38-font-family: "Inter", Helvetica;
+  --texting-inter-medium-15-38-font-size: 15.375px;
+  --texting-inter-medium-15-38-font-style: normal;
+  --texting-inter-medium-15-38-font-weight: 500;
+  --texting-inter-medium-15-38-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-15-38-line-height: 20px;
+  --texting-inter-medium-15-5-font-family: "Inter", Helvetica;
+  --texting-inter-medium-15-5-font-size: 15.5px;
+  --texting-inter-medium-15-5-font-style: normal;
+  --texting-inter-medium-15-5-font-weight: 500;
+  --texting-inter-medium-15-5-letter-spacing: 0px;
+  --texting-inter-medium-15-5-line-height: 20px;
+  --texting-inter-medium-15-94-font-family: "Inter", Helvetica;
+  --texting-inter-medium-15-94-font-size: 15.9375px;
+  --texting-inter-medium-15-94-font-style: normal;
+  --texting-inter-medium-15-94-font-weight: 500;
+  --texting-inter-medium-15-94-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-15-94-line-height: 21px;
+  --texting-inter-medium-16-07-font-family: "Inter", Helvetica;
+  --texting-inter-medium-16-07-font-size: 16.0703125px;
+  --texting-inter-medium-16-07-font-style: normal;
+  --texting-inter-medium-16-07-font-weight: 500;
+  --texting-inter-medium-16-07-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-16-07-line-height: 21px;
+  --texting-inter-medium-16-font-family: "Inter", Helvetica;
+  --texting-inter-medium-16-font-size: 16px;
+  --texting-inter-medium-16-font-style: normal;
+  --texting-inter-medium-16-font-weight: 500;
+  --texting-inter-medium-16-letter-spacing: 0px;
+  --texting-inter-medium-16-line-height: 20px;
+  --texting-inter-medium-25-92-font-family: "Inter", Helvetica;
+  --texting-inter-medium-25-92-font-size: 25.921875px;
+  --texting-inter-medium-25-92-font-style: normal;
+  --texting-inter-medium-25-92-font-weight: 500;
+  --texting-inter-medium-25-92-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-25-92-line-height: 40px;
+  --texting-inter-medium-26-47-font-family: "Inter", Helvetica;
+  --texting-inter-medium-26-47-font-size: 26.46875px;
+  --texting-inter-medium-26-47-font-style: normal;
+  --texting-inter-medium-26-47-font-weight: 500;
+  --texting-inter-medium-26-47-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-26-47-line-height: 40px;
+  --texting-inter-medium-26-69-font-family: "Inter", Helvetica;
+  --texting-inter-medium-26-69-font-size: 26.6875px;
+  --texting-inter-medium-26-69-font-style: normal;
+  --texting-inter-medium-26-69-font-weight: 500;
+  --texting-inter-medium-26-69-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-26-69-line-height: 40px;
+  --texting-inter-medium-26-8-font-family: "Inter", Helvetica;
+  --texting-inter-medium-26-8-font-size: 26.796875px;
+  --texting-inter-medium-26-8-font-style: normal;
+  --texting-inter-medium-26-8-font-weight: 500;
+  --texting-inter-medium-26-8-letter-spacing: -0.2800000011920929px;
+  --texting-inter-medium-26-8-line-height: 40px;
+  --texting-inter-medium-32-01-font-family: "Inter", Helvetica;
+  --texting-inter-medium-32-01-font-size: 32.0078125px;
+  --texting-inter-medium-32-01-font-style: normal;
+  --texting-inter-medium-32-01-font-weight: 500;
+  --texting-inter-medium-32-01-letter-spacing: -1px;
+  --texting-inter-medium-32-01-line-height: 40px;
+  --texting-inter-regular-14-5-font-family: "Inter", Helvetica;
+  --texting-inter-regular-14-5-font-size: 14.5px;
+  --texting-inter-regular-14-5-font-style: normal;
+  --texting-inter-regular-14-5-font-weight: 400;
+  --texting-inter-regular-14-5-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-14-5-line-height: 24px;
+  --texting-inter-regular-14-63-font-family: "Inter", Helvetica;
+  --texting-inter-regular-14-63-font-size: 14.625px;
+  --texting-inter-regular-14-63-font-style: normal;
+  --texting-inter-regular-14-63-font-weight: 400;
+  --texting-inter-regular-14-63-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-14-63-line-height: 24px;
+  --texting-inter-regular-14-75-font-family: "Inter", Helvetica;
+  --texting-inter-regular-14-75-font-size: 14.75px;
+  --texting-inter-regular-14-75-font-style: normal;
+  --texting-inter-regular-14-75-font-weight: 400;
+  --texting-inter-regular-14-75-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-14-75-line-height: 24px;
+  --texting-inter-regular-14-88-font-family: "Inter", Helvetica;
+  --texting-inter-regular-14-88-font-size: 14.875px;
+  --texting-inter-regular-14-88-font-style: normal;
+  --texting-inter-regular-14-88-font-weight: 400;
+  --texting-inter-regular-14-88-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-14-88-line-height: 24px;
+  --texting-inter-regular-15-13-font-family: "Inter", Helvetica;
+  --texting-inter-regular-15-13-font-size: 15.125px;
+  --texting-inter-regular-15-13-font-style: normal;
+  --texting-inter-regular-15-13-font-weight: 400;
+  --texting-inter-regular-15-13-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-15-13-line-height: 24px;
+  --texting-inter-regular-15-38-font-family: "Inter", Helvetica;
+  --texting-inter-regular-15-38-font-size: 15.375px;
+  --texting-inter-regular-15-38-font-style: normal;
+  --texting-inter-regular-15-38-font-weight: 400;
+  --texting-inter-regular-15-38-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-15-38-line-height: 24px;
+  --texting-inter-regular-15-font-family: "Inter", Helvetica;
+  --texting-inter-regular-15-font-size: 15px;
+  --texting-inter-regular-15-font-style: normal;
+  --texting-inter-regular-15-font-weight: 400;
+  --texting-inter-regular-15-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-15-line-height: 24px;
+  --texting-inter-regular-16-59-font-family: "Inter", Helvetica;
+  --texting-inter-regular-16-59-font-size: 16.59375px;
+  --texting-inter-regular-16-59-font-style: normal;
+  --texting-inter-regular-16-59-font-weight: 400;
+  --texting-inter-regular-16-59-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-16-59-line-height: 28px;
+  --texting-inter-regular-16-73-font-family: "Inter", Helvetica;
+  --texting-inter-regular-16-73-font-size: 16.734375px;
+  --texting-inter-regular-16-73-font-style: normal;
+  --texting-inter-regular-16-73-font-weight: 400;
+  --texting-inter-regular-16-73-letter-spacing: -0.36000001430511475px;
+  --texting-inter-regular-16-73-line-height: 28px;
+  --texting-inter-regular-16-88-font-family: "Inter", Helvetica;
+  --texting-inter-regular-16-88-font-size: 16.875px;
+  --texting-inter-regular-16-88-font-style: normal;
+  --texting-inter-regular-16-88-font-weight: 400;
+  --texting-inter-regular-16-88-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-16-88-line-height: 28px;
+  --texting-inter-regular-18-59-font-family: "Inter", Helvetica;
+  --texting-inter-regular-18-59-font-size: 18.59375px;
+  --texting-inter-regular-18-59-font-style: normal;
+  --texting-inter-regular-18-59-font-weight: 400;
+  --texting-inter-regular-18-59-letter-spacing: -0.2800000011920929px;
+  --texting-inter-regular-18-59-line-height: 28px;
+  --texting-poppins-semibold-16-font-family: "Poppins", Helvetica;
+  --texting-poppins-semibold-16-font-size: 16px;
+  --texting-poppins-semibold-16-font-style: normal;
+  --texting-poppins-semibold-16-font-weight: 600;
+  --texting-poppins-semibold-16-letter-spacing: 0px;
+  --texting-poppins-semibold-16-line-height: 16px;
+  --tile-dropshadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+  --title-emphasized-font-family: "Inter", Helvetica;
+  --title-emphasized-font-size: 16px;
+  --title-emphasized-font-style: normal;
+  --title-emphasized-font-weight: 600;
+  --title-emphasized-letter-spacing: -0.20000000298023224px;
+  --title-emphasized-line-height: 20px;
+  --title-medium-font-family: "Inter", Helvetica;
+  --title-medium-font-size: 16px;
+  --title-medium-font-style: normal;
+  --title-medium-font-weight: 500;
+  --title-medium-letter-spacing: -0.30000001192092896px;
+  --title-medium-line-height: 20px;
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultalabaster: rgba(
+    248,
+    248,
+    248,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultaqua-deep: rgba(0, 81, 73, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultathens-gray: rgba(
+    240,
+    242,
+    245,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultbaltic-sea: rgba(29, 28, 30, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultblack: rgba(0, 0, 0, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultboulder: rgba(117, 117, 117, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultcaribbean-green: rgba(
+    10,
+    207,
+    131,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultchelsea-gem: rgba(
+    162,
+    89,
+    255,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultcod-gray: rgba(24, 24, 24, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultcod-gray-98: rgba(
+    24,
+    24,
+    24,
+    0.98
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultdodger-blue: rgba(
+    45,
+    104,
+    248,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultgreen-haze: rgba(0, 166, 86, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaulthit-gray: rgba(173, 183, 190, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultjade: rgba(255, 172, 125, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultmine-shaft: rgba(44, 44, 44, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultnero: rgba(255, 255, 255, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultnero-75: rgba(
+    255,
+    255,
+    255,
+    0.75
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultpearl-bush: rgba(
+    236,
+    228,
+    219,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultpomegranate: rgba(
+    242,
+    78,
+    30,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultscorpion: rgba(92, 92, 92, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultspring-wood: rgba(
+    252,
+    250,
+    249,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaulttropical-rain-forest: rgba(
+    255,
+    114,
+    98,
+    1
+  );
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaulttundora: rgba(77, 77, 77, 1);
+  --ui8netpurepearlproductskliniku-beauty-clinic-landing-page-experience1440x714defaultverdun-green: rgba(
+    45,
+    104,
+    255,
+    1
+  );
+}
